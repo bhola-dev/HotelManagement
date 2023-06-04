@@ -1,0 +1,16 @@
+Task 
+Before working on code, create new branch by your name and start working on the task, once you complete the task , push to your  branch and send confirmation email to our team
+1. Create Room Model/migration/ controller 
+2. Add CRUD feature 
+3. Create api to
+    a) check room availability of rooms 
+    b) book room for guest 
+4. Send room booking mail notification to guest and admin, (Handle Queue)
+5. Show room list with availability in admin dashboard
+6. Add Cancel Booking Feature
+7. Add One Helper file to map pricing  as below  and manage pricing by this function
+    function price_string(  $price){
+        // price in number 
+        return "₹ ".$price;
+    }
+8. Create One Task Schedule to Send Good moning mail to all enroled Guest (Handle Queue and Setup Complete configuration to run Task scheduler)
